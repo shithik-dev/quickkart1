@@ -23,16 +23,17 @@ $password = ""; // default for XAMPP
 ## 3) Create database & tables
 1. Start MySQL in XAMPP Control Panel.
 2. Import schema:
-   - Option A (phpMyAdmin): go to http://localhost/phpmyadmin → Import → choose `quickkart.sql` → Go.
-   - Option B (CLI): `mysql -u root -p < quickkart.sql`
+    (phpMyAdmin): go to http://localhost/phpmyadmin → Import → choose `quickkart.sql` → Go.
+
 
 ## 4) Start the servers
 1. Start Apache and MySQL from XAMPP Control Panel.
 2. Visit the site at: http://localhost/quickkart/public/index.php
 
-## 5) Default access & admin
+## 5) Admin access
 - Create a user via `public/signup.php`.
-- First logged-in user (id=1) or any email starting with `admin@` gets admin access.
+- Admin email:adminquickkart@gmail.com
+- Admin password:admin@123
 - Admin panel: http://localhost/quickkart/public/admin/dashboard.php
 
 ## 6) File/folder permissions
